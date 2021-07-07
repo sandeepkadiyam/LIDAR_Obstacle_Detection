@@ -1,2 +1,19 @@
 # LIDAR_Obstacle_Detection
-LIDAR Sensor is one of the crucial sensors in the state of art autonomous vehicles. A high resolution point cloud data of the scene surrounding the vehicle can be obtained using LIDAR. In this project, various techniques have been performed on the point cloud data to determine the obstacles in the scene.
+**Lidar** Sensor is one of the crucial sensors in the state of art autonomous vehicles. A high resolution point cloud data of the scene surrounding the vehicle can be obtained using **Lidar**. In this project, various processing techniques have been performed on the point cloud data to determine the obstacles in the scene.
+
+## Lidar
+* Lidar sends out beams of light(lasers) and measures how long it takes for them to come back and thus calculates the distance of the object.
+* Lasers will be sent out in many different angles and the range is determined by lidar's field of view.
+* Once the laser bounces of materials, the laser intensity value is also recieved which can be used to evaluate the properties of the material.
+
+## Point Cloud Data
+* Lidar data is stored in a format called Point Cloud Data. 
+* Each .pcd file consists a list of (X,Y,Z) or (X,Y,Z,I) coordinates. I in (X,Y,Z,I) refers to the laser Intensity value.
+
+## Project Description
+The project mainly consists of four parts.
+* Obtaining Point Cloud Data from the **Lidar** scan.
+* Point Cloud Segmentation.
+* Point Cloud Clustering.
+* Point Cloud Filtering.
+
