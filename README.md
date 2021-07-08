@@ -23,5 +23,12 @@ The project mainly consists of four parts.
 * The Point Cloud Data of the scene surrounding the vehicle after performing a lidar scan is visualized as below,
 <img src="media/simulatedPcd.png" width="850" height="400" />
 
+## Point Cloud Segmentation
+* Point Cloud Segmentation is the process of classifying the point clouds into different regions. In this project, segmentation was performed to classify the points as plane points and non-plane points.
+* RANSAC algorithm has been implemented from scratch to perform segmentation.
+* RANSAC algorithm randomly chooses 3 points to fit a plane and then iterates through all the points of input cloud to detetct inliers.
+* RANSAC runs for a maximum number of iterations and then returns the model with best fit.
+* The segmented point cloud is visualized as below,
+
 
 
