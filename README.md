@@ -1,5 +1,7 @@
 # LIDAR_Obstacle_Detection
-**Lidar** Sensor is one of the crucial sensors in state-of-the-art autonomous vehicles. A high-resolution point cloud data of the scene surrounding the vehicle can be visualized using **Lidar**. In this project, various processing techniques have been performed on the point cloud data to detect the obstacles in the scene.
+**Lidar** Sensor is one of the crucial sensors in state-of-the-art autonomous vehicles. A high-resolution point cloud data of the scene surrounding the vehicle can be visualized using **Lidar**. In this project, Segmentation, Clustering, Downsampling and Filtering have been performed on real time point cloud data. The real time point Cloud Data can be seen below,
+
+<img src="media/beforeDS.png" width="850" height="400" />
 
 ## Lidar
 * Lidar sends out beams of light(lasers) and measures how long it takes for them to come back and thus calculates the distance of the object.
