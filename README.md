@@ -42,10 +42,13 @@ The red-colored point cloud is referred to as obstacle point cloud and the green
 ## Downsampling Point Cloud Filtering
 * Processing high-resolution data is computationally inexpensive and also not required to obtain the proper results. So, the high resolution is often downsampled in such a way that it decreases the computation effort and at the same time doesn't lose any meaningful information.
 * point cloud filtering is performed to filter out the point cloud that's unnecessary in getting a result.
+
 The point cloud data before downsampling and filtering is visualized as below,
+
 <img src = "media/beforeDS.png" width = "850" height = "400"/>
 
 The point cloud data after downsampling and filtering is visualized as below,
+
 <img src = "media/afterDS.png" width = "850" height = "400"/>
 
 
