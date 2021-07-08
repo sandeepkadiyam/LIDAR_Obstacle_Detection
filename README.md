@@ -19,6 +19,7 @@ The project mainly consists of four parts.
 
 ## Lidar Scan
 * In this project, the lidar is represented in a simulator. It does ray casting to sense its surroundings.
+* Both horizantal and the vertical resolution of lidar is controlled by the lidar parameters, which can be tweaked to attain high resolution data.
 * The Point Cloud Data of the scene surrounding the vehicle after performing a lidar scan is visualized as below,
 <img src="media/simulatedPcd.png" width="850" height="400" />
 
