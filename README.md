@@ -26,7 +26,7 @@ The project mainly consists of four parts.
 <img src="media/rayCasting.png" width="850" height="400" />
 
 ## Downsampling and Point Cloud Filtering
-* Processing high-resolution data is computationally inexpensive and also not required to obtain the proper results. So, the high resolution is often downsampled in such a way that it decreases the computation effort and at the same time doesn't lose any meaningful information.
+* Processing high-resolution data is computationally expensive and also not required to obtain the proper results. So, the high resolution is often downsampled in such a way that it decreases the computation effort and at the same time doesn't lose any meaningful information.
 * point cloud filtering is performed to filter out the point cloud that's unnecessary in getting a result.
 
 The point cloud data before downsampling and filtering is visualized as below,
